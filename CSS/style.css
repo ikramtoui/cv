@@ -32,7 +32,10 @@ body {
 .conteneur .cv-sections {
   width: 100%;
 }
-
+.photo img,
+.conteneur* {
+  width:50%;
+}
 .section {
   margin-bottom: 20px;
 }
