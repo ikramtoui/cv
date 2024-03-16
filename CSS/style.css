@@ -53,8 +53,9 @@ header {
 }
 
 header h1 {
-  margin: 0;
-  color: var(--main-color);
+  margin: 20px;
+  color: #141010;
+  border: 5px solid;
 }
 
 .skills p {
