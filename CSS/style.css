@@ -28,7 +28,7 @@ body {
   position: sticky;
   top: 0;
   flex: 0 0 200px;
-  height: 100vh;
+  height: 150vh;
 }
 
 .photo img,
