@@ -103,8 +103,9 @@ header h1 {
 }
 
 .image img {
-  height: 100%; /* Assurez-vous que les images occupent toute la hauteur du conteneur */
-  width: auto; /* Ajustez automatiquement la largeur pour maintenir les proportions */
+  width: 140px; /* Largeur de l'image */
+  height: 200px; /* Hauteur de l'image */
+  object-fit: cover; /* Assurez-vous que l'image est coupée ou étirée pour s'adapter à la taille définie */
 }
 
 @media (max-width: 450px) {
