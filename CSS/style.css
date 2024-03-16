@@ -88,18 +88,24 @@ header h1 {
 
 .container {
   display: flex;
-  flex-direction: column; /* Les éléments sont disposés verticalement */
+  /* La direction est modifiée pour être horizontale */
+  flex-direction: row; 
+  /* Permet aux éléments de déborder horizontalement si nécessaire */
+  flex-wrap: nowrap;
 }
 
 .image {
-  margin-bottom: 10px; /* Marge entre les images */
+  margin-right: 10px; /* Marge entre les images */
+}
+
+.image:last-child {
+  margin-right: 0; /* Supprime la marge de la dernière image pour éviter un espace vide à droite */
 }
 
 .image img {
-  width: 100%; /* Assurez-vous que les images occupent toute la largeur du conteneur */
-  height: auto; /* Ajustez automatiquement la hauteur pour maintenir les proportions */
+  height: 100%; /* Assurez-vous que les images occupent toute la hauteur du conteneur */
+  width: auto; /* Ajustez automatiquement la largeur pour maintenir les proportions */
 }
-
 
 @media (max-width: 450px) {
 
